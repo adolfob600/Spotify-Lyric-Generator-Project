@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>{{ subtitle }}</h2>
+
+
+<form action="lyrics" method="POST">
+    <label style="color:white;"> Playlist Link: <input type="text" name="link"> </label>
+    <input type="submit" value="Submit">
+</form>
+{% endblock content %}
